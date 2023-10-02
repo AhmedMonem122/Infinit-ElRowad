@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Infinit Al Rowad</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/assets/images/logo_colour.png"
+            alt="logo"
+            class="img-fluid w-100"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >الصفحة الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">عن البطاقة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">أنواع البطاقات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">الخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">تفعيل البطاقة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">الأسئلة الشائعة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">طلب البطاقة</a>
+            </li>
+          </ul>
+
+          <div class="navbar-nav me-auto">
+            <ul class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="my-5">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="/assets/images/banner_01@2x.png"
+                alt="banner"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/assets/images/banner_02@2x.png"
+                alt="banner"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/assets/images/banner_03@2x.png"
+                alt="banner"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/assets/images/banner_04@2x.png"
+                alt="banner"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/assets/images/banner_05@2x.png"
+                alt="banner"
+                class="img-fluid"
+              />
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //   el: ".swiper-scrollbar",
+        // },
+      });
+    </script>
+  </body>
+</html>
