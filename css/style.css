@@ -298,3 +298,130 @@ section .swiper-slide p {
   opacity: 1;
   border-bottom: 3px solid #f39222;
 }
+
+.card-video {
+  cursor: pointer;
+}
+
+section button {
+  display: block !important;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000026 !important;
+  border: 0.20000000298023224px solid #cfcfcf !important;
+  border-radius: 36px !important;
+  opacity: 1;
+  text-align: center !important;
+  font: normal normal bold 22px/42px Cairo !important;
+  letter-spacing: 0px;
+  color: #7a2c86 !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion-button {
+  text-align: right !important;
+  font: normal normal bold 22px/42px Cairo !important;
+  letter-spacing: 0px;
+  color: #404040 !important;
+  opacity: 1;
+  display: flex !important;
+}
+
+.accordion-button::after {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+#card-request .container h3 {
+  text-align: right;
+  font: normal normal bold 20px/40px Cairo;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+#card-request .container ol li {
+  text-align: right;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+.bg-container {
+  position: relative;
+  top: 25%;
+}
+
+.bg-shape-2 {
+  width: 100%;
+  position: absolute;
+  opacity: 0.2;
+  bottom: 25%;
+  z-index: -5;
+}
+
+footer {
+  background: #7a2c86 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 6px #0000001a;
+  opacity: 1;
+}
+
+footer img {
+  filter: brightness(0) invert(1);
+  width: 122px;
+  height: 122px;
+}
+
+footer a {
+  display: block;
+  text-align: right;
+  text-decoration: underline;
+  font: normal normal normal 18px/38px Cairo;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+footer p {
+  text-align: right;
+  font: normal normal normal 16px/24px Cairo;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+footer .contacts {
+  width: fit-content;
+}
+
+footer .brands span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50%;
+  color: #7a2c86;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  transition: all 0.3s;
+}
+
+footer .brands span:hover {
+  background: #7a2c86 0% 0% no-repeat padding-box;
+  color: #ffffff;
+}
+
+footer hr {
+  color: #ffffff;
+}
+
+footer .copy-rights {
+  text-align: center;
+  font: normal normal normal 18px/32px Cairo;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
