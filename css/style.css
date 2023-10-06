@@ -76,7 +76,7 @@ nav ul li .active {
 nav ul li .active::after {
   content: "";
   position: absolute;
-  top: 35px;
+  top: 95%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -99,7 +99,7 @@ nav ul a {
 nav ul li a::after {
   content: "";
   position: absolute;
-  top: 35px;
+  top: 95%;
   left: 50%;
   transform: translateX(-50%);
   width: 0;
@@ -380,6 +380,7 @@ footer a {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
+  width: fit-content;
 }
 
 footer p {
